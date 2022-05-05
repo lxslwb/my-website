@@ -1,2 +1,4 @@
 .idea/
 flaskr/__pycache__/
+instance/
+tests/
