@@ -1,9 +1,8 @@
 html {
-    font-family: sans-serif;
-    /* background: #eee; */
+    font-family: Arial, 'Times New Roman', 'Microsoft YaHei', SimHei;
     background: url(./images/index-yellow.gif);
-    /* background: url(./images/index-yellow.gif)  no-repeat fixed center/100% 100%; */
-    padding: 1rem;
+    /* padding: 1rem; */
+    padding: 20px 0px 0px 0px;
 }
 
 body {
@@ -28,7 +27,8 @@ hr {
 }
 
 nav {
-    background: color #432d80;
+    /* background: #432d80; */
+    background: url(./images/nav-star.gif);
     display: flex;
     align-items: center;
     padding: 0 0.5rem;
@@ -36,6 +36,7 @@ nav {
 
 nav h1 {
     flex: auto;
+    color: aqua;
     margin: 0;
 }
 
@@ -51,6 +52,10 @@ nav ul {
     padding: 0;
 }
 
+nav ul li a {
+    text-decoration: none;
+    color: #75b410
+}
 
 nav ul li a,
 nav ul li span,
