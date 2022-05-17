@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block header %}
+<h1>{% block title %}个人简介{% endblock %}</h1>
+{% endblock %}
+{% block content %} 
+{% for post in posts %}
+<article class="post">
+    <p class="body">{{ post['body'] }}</p>
+</article>
+{% endfor %}
+{% endblock %}

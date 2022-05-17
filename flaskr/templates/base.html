@@ -1,18 +1,16 @@
 <!doctype html>
 <title>{% block title %}{% endblock %} - mgjrr</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-<!--导航栏-->
 <nav>
     <h1>Mgjrr</h1>
     <ul>
         <li><a href="{{ url_for('blog.index') }}">主页</a>
-        <li><a href="{{ url_for('blog.index') }}">个人简介</a>
+        <li><a href="{{ url_for('introduction.my') }}">个人简介</a>
         <li><a href="{{ url_for('blog.index') }}">文章</a>
         <li><a href="{{ url_for('blog.index') }}">小游戏</a>
         <li><a href="{{ url_for('blog.index') }}">项目经历</a>
     </ul>
 </nav>
-<!--主体内容-->
 <section class="content">
     <header>
         {% block header %}{% endblock %}

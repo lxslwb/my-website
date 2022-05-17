@@ -27,7 +27,6 @@ hr {
 }
 
 nav {
-    /* background: #432d80; */
     background: url(./images/nav-star.gif);
     display: flex;
     align-items: center;
